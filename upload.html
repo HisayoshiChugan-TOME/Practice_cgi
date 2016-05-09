@@ -1,0 +1,17 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <title>2画像間の類似度計算機</title>
+</head>
+<body>
+<h1>2画像間の類似度を計算します</h1>
+<!-- <p>%s</p> -->
+<p>画像ファイルを2枚選択してから送信を押してください</p>
+<form action="/cgi-bin/upload.cgi" method="post" enctype="multipart/form-data">
+  Format: <input type="text" name="text1" /> <br>
+  Image1: <input type="file" name="file1" /> <br>
+  Image2: <input type="file" name="file2" /> <br><br>
+  <input type="submit" value="類似度計算" />
+</form>
+</body>
+</html>
